@@ -38,7 +38,6 @@ renderer.setSize(sizes.width, sizes.height)
 // Using GSAP GreenSock lib (tween)
 gsap.to(mesh.position, {duration: 1, delay: 1, x: 2})
 gsap.to(mesh.position, {duration: 1, delay: 2, x: 0})
-gsap.
 const tick = () => {
 
     // // Time
