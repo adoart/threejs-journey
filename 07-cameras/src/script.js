@@ -49,8 +49,13 @@ scene.add(camera)
 
 // Controls
 const controls = new OrbitControls(camera, canvas)
+controls.autoRotate = true
 controls.enableDamping = true
-
+controls.enableRotate = false
+controls.handleMouseMoverq
+document.body.addEventListener( 'mousemove', ( e )=>{
+    controls.handleMouseMoveRotate( e )
+});
 // Renderer
 const renderer = new THREE.WebGLRenderer({
     canvas: canvas
