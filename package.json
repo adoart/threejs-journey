@@ -9,7 +9,7 @@
     "deploy": "vercel --prod"
   },
   "devDependencies": {
-    "vite": "^4.0.4"
+    "vite": "7.1.11"
   },
   "dependencies": {
     "lil-gui": "^0.17.0",
